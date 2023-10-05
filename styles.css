@@ -2,8 +2,8 @@
 h1 {
     text-align: center;
     margin-bottom: 30px;
-    background-color: #eb10107b;
-    border-radius: 3%;
+    color: #eb1010;
+    text-shadow: 1px 1px 0 black;
 }
 
 

@@ -4,9 +4,9 @@ let total = 0;
 
 // Asociar imágenes a los productos
 const productosConImagenes = {
-    producto1: "bicicleta-montana-expert-renegade-hombre-rod-26-frenos-disco-21cambio-rojo.jpg", // Reemplaza con la ruta de la imagen correspondiente
-    producto2: "consola-sony-playstation-4-ps4-slim-1tb-consola-sony-playstation-4-ps4-slim-1tb.jpg", // Reemplaza con la ruta de la imagen correspondiente
-    producto3: "pelota-nike-strike-white.jpg", // Reemplaza con la ruta de la imagen correspondiente
+    producto1: "img/bicicleta-montana-expert-renegade-hombre-rod-26-frenos-disco-21cambio-rojo.jpg",
+    producto2: "img/consola-sony-playstation-4-ps4-slim-1tb-consola-sony-playstation-4-ps4-slim-1tb.jpg",
+    producto3: "img/pelota-nike-strike-white.jpg",
 };
 
 // Función para agregar un producto al carrito
