@@ -1,0 +1,50 @@
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #eb10107b;
+    border-radius: 3%;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.btn-primary {
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+}
+
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+table th {
+    background-color: #eb1010;
+}
+
+
+table td {
+    vertical-align: middle;
+}
+
+
+h3 {
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ff0404;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
