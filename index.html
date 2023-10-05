@@ -18,15 +18,15 @@
                         <input type="text" class="form-control" id="cliente" placeholder="Nombre del Cliente">
                     </div>
                     <div class="form-group">
-                        <label for="rut">RUT (opcional)</label>
+                        <label for="rut">RUT</label>
                         <input type="text" class="form-control" id="rut" placeholder="RUT">
                     </div>
                     <div class="form-group">
                         <label for="producto">Seleccionar Producto</label>
                         <select class="form-control" id="producto">
-                            <option value="producto1">Producto 1 - $100</option>
-                            <option value="producto2">Producto 2 - $200</option>
-                            <option value="producto3">Producto 3 - $300</option>
+                            <option value="producto1">Bicileta MTB - $1500</option>
+                            <option value="producto2">PlayStation4 - $500</option>
+                            <option value="producto3">Balon Nike - $80</option>
                         </select>
                     </div>
                     <button type="button" class="btn btn-primary" onclick="agregarAlCarrito()">Agregar al Carrito</button>
@@ -37,6 +37,7 @@
         <table class="table">
             <thead>
                 <tr>
+                    <th>Imagen</th>
                     <th>Producto</th>
                     <th>Precio</th>
                 </tr>
@@ -45,7 +46,7 @@
                 <!-- ACA SE AGREGAN LOS ELEMENTOS DEL CARRITO -->
             </tbody>
         </table>
-        <h3>Total: <span id="total">0</span></h3>
+        <h3>Total: $<span id="total">0</span></h3>
     </div>
 
     <script src="script.js"></script>
