@@ -1,8 +1,6 @@
-// Variables globales
 const carrito = [];
 let total = 0;
 
-// Asociar imágenes a los productos
 const productosConImagenes = {
     producto1: "img/bicicleta-montana-expert-renegade-hombre-rod-26-frenos-disco-21cambio-rojo.jpg",
     producto2: "img/consola-sony-playstation-4-ps4-slim-1tb-consola-sony-playstation-4-ps4-slim-1tb.jpg",
@@ -17,7 +15,7 @@ function agregarAlCarrito() {
     let precio = 0;
     let imagen = "";
 
-    // Obtener el precio y la imagen del producto seleccionado
+    //obtiene el precio y la imagen del producto seleccionado 
     switch (productoSeleccionado) {
         case "producto1":
             precio = 100;
@@ -40,11 +38,11 @@ function agregarAlCarrito() {
             producto: productoSeleccionado,
             precio: precio,
             imagen: imagen,
-            cliente: cliente, // Agregar el nombre del cliente al objeto del carrito
-            rut: rut,         // Agregar el RUT al objeto del carrito
+            cliente: cliente, 
+            rut: rut,   
         });
 
-        // Actualizar la tabla del carrito y el total
+  
         actualizarCarrito();
     }
 }
